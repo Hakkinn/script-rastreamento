@@ -1,4 +1,3 @@
-// CÓDIGO DO ARQUIVO: visual-config-script-v2.js
 (function() {
     const params = new URLSearchParams(window.location.search);
     if (params.get('visual_config_mode') !== 'true' || window.self === window.top) { return; }
