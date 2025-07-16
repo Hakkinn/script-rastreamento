@@ -1,8 +1,3 @@
-// =================================================================
-// SCRIPT DE CONFIGURAÇÃO VISUAL v2.2 (COM HANDSHAKE)
-// =================================================================
-
-// Verifica se está no modo de configuração visual antes de executar qualquer coisa
 if (new URLSearchParams(window.location.search).get('visual_config_mode') === 'true') {
     // AVISA O PAINEL QUE O IFRAME ESTÁ PRONTO PARA RECEBER COMANDOS
     window.parent.postMessage({ type: 'IFRAME_READY' }, '*');
